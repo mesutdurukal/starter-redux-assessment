@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import CreatePhoto from './features/photos/create';
+import PhotosList from './features/photos/list';
+import Suggestion from './features/suggestion';
+import SearchBar from './features/search/search-bar';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>DOGGIEGRAM</h1>
+      <div className="create-photo-container">
+        <CreatePhoto />
+        <Suggestion />
+      </div>
+      <SearchBar />
+      <PhotosList />
+    </>
   );
 }
 

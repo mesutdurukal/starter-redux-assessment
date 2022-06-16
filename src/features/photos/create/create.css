@@ -1,0 +1,39 @@
+.create-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-form h2 {
+  margin: 0 0 20px 0;
+}
+
+.create-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-form input {
+  margin: 20px 0;
+  padding: 5px;
+  width: 50vh;
+}
+
+.create-form input[type=submit] {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Mali", cursive;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: 20vh;
+  cursor: pointer;
+}
+
+.create-form input[type=submit]:hover {
+  background-color: #fff;
+  color: #000;
+}
