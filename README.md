@@ -19,3 +19,7 @@ Runs an Express API at `http://localhost:3004` that exposes a single endpoint, G
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm test`
+
+Runs the test suites.

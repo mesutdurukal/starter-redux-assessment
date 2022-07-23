@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^7.2.1"
+    "concurrently": "^7.2.1",
+    "msw": "^0.42.1"
   }
 }
