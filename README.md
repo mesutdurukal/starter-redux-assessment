@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Runs an Express API at `http://localhost:3004` that exposes a single endpoint, `GET /api/suggestion`, which returns a dog suggestion at random.
 
 The page will reload when you make changes.\
-You may also see any line errors in the console.
+You may also see any lint errors in the console.
 
 ### `npm test`
 
