@@ -1,8 +1,15 @@
-# Starter redux assessment: Doggiegram
+# Doggiegram
+Doggiegram is an app that allows users to collect and share photos of their favorite dog breeds.
+
+Users can:
+* Add a new photo to the collection
+* Remove a photo from the collection
+* Search and filter the photos collection based on a search term
+* Load a photo suggestion that the user can add to their collection
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available scripts
+## Starting the App
 
 In the project directory, you can run the following commands:
 
