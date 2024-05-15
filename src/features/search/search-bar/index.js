@@ -4,10 +4,12 @@ import './search-bar.css';
 
 export default function SearchBar() {
   const searchTerm = useSelector(selectSearchTerm);
+    const dispatch = useDispatch();
   // Task 10: Store a reference to the Redux store's dispatch method in a variable called `dispatch`
 
   function handleChange({ target: { value } }) {
     // Task 11: Dispatch the `setSearchTerm()` action creator, passing in the value of the search input
+   dispatch(setSearchTerm(value));
   }
 
   return (
